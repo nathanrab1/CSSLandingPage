@@ -147,9 +147,9 @@ body {
 }
 
 .person-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-gap: 2em; */
     /*flex: 0 0 250px;*/
     margin: 4em 0;
     padding: 0px 20vb;
@@ -157,7 +157,7 @@ body {
 }
 .person-card {
     justify-content: center;
-    margin: 0px 30px;
+    margin: 0px 5px;
     padding: 20px opx;
 }
 
