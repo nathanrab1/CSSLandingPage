@@ -22,7 +22,10 @@ h1 {
 }
 
 h2 {
-    color: var(--dark-blue)
+  margin-top: 40px;
+  margin-bottom: 0px;
+    color: var(--dark-blue);
+    font-size: xx-large;
 }
 
 .inner-participant {
@@ -37,7 +40,7 @@ p {
     color: var(--light-grey)
 }
 .header {
-    background-color: var(--light-grey);
+    background-color: var(--dark-grey);
     height: 30px;
     display: flex;
     align-items: center;
@@ -48,6 +51,12 @@ p {
     color: var(--dark-blue);
     padding: 5px 10px;
     font-weight: bold;
+}
+
+.header a {
+  color: var(--dark-blue);
+  font-style: initial;
+  text-decoration: none;
 }
 
 .section-1 {
@@ -86,7 +95,7 @@ body {
         height: 400px; /* ajuste conforme necessário */
     }
   .participants {
-    margin-top: 50px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -124,8 +133,8 @@ body {
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     /*justify-content: space-evenly;*/
-    padding-left: 20vb;
-    padding-right: 20vb;
+    /* padding-left: 20vb; */
+    /* padding-right: 20vb; */
 }
 
 .people-page h3 {
@@ -139,7 +148,7 @@ body {
 
 .person-grid {
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
     /*flex: 0 0 250px;*/
     margin: 4em 0;
@@ -148,6 +157,8 @@ body {
 }
 .person-card {
     justify-content: center;
+    margin: 0px 30px;
+    padding: 20px opx;
 }
 
 .person-image {
@@ -176,5 +187,6 @@ body {
 
 .person-description {
   margin-right: 66px;
-
+  display: flex;
+  align-items: center;
 }
