@@ -11,12 +11,17 @@
     --dark-green: #9bc73fff;
     --light-yellow: #dae357ff;
     --dark-grey: #999999;
-    --light-grey: #f4f4f4;
+    --light-grey: #cecece;
 }
 /* Body ********************************** Body */
 body {
 
 }  
+
+::selection { 
+  background: var(--dark-green); 
+  color: var(--dark-pink); 
+} 
 
 
 /* Header ********************************** Header */
@@ -35,7 +40,7 @@ body {
   /* border: 3px solid #73AD21; */
 }
 .header img {
-  max-height: 30px;
+  height: 30px;
   justify-self: end;
 }
 
@@ -187,6 +192,12 @@ iframe {
 
 }
 
+.people::selection {
+  background: var(--dark-green); 
+  color: var(--dark-pink); 
+
+}
+
 .person-card {
   justify-content: center;
   margin: 0px 5px;
@@ -233,7 +244,7 @@ footer {
 .footer-logos img {
   /* height: 40px; */
   margin: 0 40px;
-  max-width: 320px;
+  max-height: 40px;
   
 }
 
